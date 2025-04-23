@@ -35,10 +35,10 @@ AI_DOC_RAGBOT/
 ├── vectorstore/
 │   └── ChromaDB cache
 ├── figures/
-│   └── response_time_comparison.png, architecture.png
+│   └── images
 ├── requirements.txt
 └── report/
-    └── ai_doc_report.tex (AAAI-style)
+    └── ai_doc_report.pdf
 ```
 
 ---
