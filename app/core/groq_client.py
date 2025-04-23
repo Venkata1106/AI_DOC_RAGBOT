@@ -15,7 +15,7 @@ def initialize_llm():
     """Initialize the Groq LLM using the official langchain-groq wrapper."""
     if not GROQ_API_KEY:
         raise ValueError("GROQ_API_KEY environment variable not set.")
-    return ChatGroq(model_name="llama3-8b-8192", api_key=GROQ_API_KEY)
+    return ChatGroq(model_name="llama3-70b-8192", api_key=GROQ_API_KEY)
 
 def create_medical_qa_chain(vector_db):
     """Create a medical QA chain with the Groq LLM."""

@@ -1,0 +1,7 @@
+prompt,model,time_sec,prompt_tokens,completion_tokens,answer_length_words,fluency_score,hallucination,accuracy
+Mild Stroke,LLaMA3-8B,0.76,19,512,550,9.0,False,1
+Mild Stroke,LLaMA3-70B,1.73,19,499,530,9.5,False,1
+Diabetes & Vision,LLaMA3-8B,0.67,17,476,520,8.5,False,1
+Diabetes & Vision,LLaMA3-70B,1.66,17,484,530,9.0,False,1
+Pneumonia,LLaMA3-8B,0.68,17,512,550,9.0,False,1
+Pneumonia,LLaMA3-70B,1.74,17,512,550,9.2,False,1

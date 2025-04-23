@@ -10,7 +10,7 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 # Model settings
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "BAAI/bge-small-en-v1.5")
-LLM_MODEL = os.getenv("LLM_MODEL", "biomistral-7b")
+LLM_MODEL = os.getenv("LLM_MODEL", "llama3-70b-8192")
 
 # File paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
