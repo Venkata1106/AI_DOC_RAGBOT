@@ -1,4 +1,4 @@
-# 🩺 AI-DOC: Medical RAG Chatbot with Document and Symptom Intelligence
+# 🩺 AI-DOC: Medical RAG Chatbot
 
 AI-DOC is a real-time Retrieval-Augmented Generation (RAG) chatbot tailored for medical question answering. It supports both user-uploaded clinical PDFs and fallback medical sources using Groq-hosted LLaMA3 models. AI-DOC delivers fast, explainable, and reliable responses suited for patient education, clinical document review, and healthcare literacy.
 
