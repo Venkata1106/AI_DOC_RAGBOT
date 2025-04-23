@@ -101,11 +101,10 @@ We evaluated AI-DOC using LLaMA3-8B and LLaMA3-70B models with and without RAG. 
 
 - **LLaMA3-70B**:
   - ✅ More detailed and context-rich responses.
-  - ⚠️ Slower response time (~2× latency).
+  
 
 - **LLaMA3-8B**:
   - ⚡ Fast and reliable with low latency.
-  - 🏆 Best fit for real-time deployments.
 
 - **RAG vs No-RAG**:
   - 🧠 RAG improves answer grounding and factual correctness.
