@@ -1,6 +1,6 @@
 # 🩺 AI-DOC: Medical RAG Chatbot
 
-AI-DOC is a real-time Retrieval-Augmented Generation (RAG) chatbot tailored for medical question answering. It supports both user-uploaded clinical PDFs and fallback medical sources using Groq-hosted LLaMA3 models. AI-DOC delivers fast, explainable, and reliable responses suited for patient education, clinical document review, and healthcare literacy.
+AI-DOC is a real-time Retrieval-Augmented Generation (RAG) chatbot tailored for medical question answering. It supports both user-uploaded clinical PDFs and fallback medical sources using Groq-hosted LLaMA3 - 80B model. AI-DOC delivers fast, explainable, and reliable responses suited for patient education, clinical document review, and healthcare literacy.
 
 ![Architecture](figures/architecture.png)
 
@@ -9,7 +9,7 @@ AI-DOC is a real-time Retrieval-Augmented Generation (RAG) chatbot tailored for 
 ## 🚀 Features
 
 - 📄 Document-based retrieval (PDF ingestion)
-- ⚡ Fast Groq-hosted **LLaMA3-8B/70B** for Q&A
+- ⚡ Fast Groq-hosted **LLaMA3-70B** for Q&A
 - 🔍 Automatic fallback to vetted medical sources (e.g., Merck)
 - 🧠 Minimal hallucination, fluent and contextual responses
 - 🎛️ Modular backend (FastAPI) + Minimal dark-mode UI (Gradio)
